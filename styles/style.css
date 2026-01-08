@@ -162,6 +162,7 @@ header{
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.06);
+    border-bottom: none;
 }
 .card .circle{
     margin-top: 70px;
@@ -182,4 +183,43 @@ header{
     font-size: 24px;
     font-weight: 600;
     color: #001931;
+}
+
+/* Second Brain section */
+.second-brain{
+    padding: 120px;
+}
+.second-brain .content-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.second-brain .content-container img{
+    max-width: 600px;
+}
+.solution-section h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.solution-section h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001938;
+    margin-bottom: 16px;
+}
+.solution-section p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.solution-section li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
 }
