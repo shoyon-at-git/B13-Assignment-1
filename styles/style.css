@@ -285,7 +285,10 @@ footer{
     margin-bottom: 16px;
     display: flex;
     gap: 8px;
-
+}
+.circle-gradient{
+    background: linear-gradient(white);
+    border-radius: 50px;
 }
 .links li{
     list-style: none;
