@@ -102,6 +102,7 @@ header{
     gap: 13px;
 }
 .banner-content-container .hero-btn{
+    border: none;
     color: white;
     background-color: #469165;
     padding: 16px;
@@ -115,12 +116,14 @@ header{
 
 .banner-content-container .trans-btn{
     background-color: transparent;
+    border: 1px solid white;
 }
 .hero-btn:hover{
     background-color: #49b676;
     color: rgb(77, 23, 127);
 }
 .trans-btn:hover{
+    /* border: 1px solid white; */
     background-color: transparent;
     color:rgb(62, 125, 177);
 }
